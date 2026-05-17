@@ -101,6 +101,7 @@ export default async function LocaleLayout({
     <html lang={locale} suppressHydrationWarning>
       <body
         className={`${ibmPlexSans.variable} ${ibmPlexMono.variable} font-sans min-h-screen antialiased`}
+        suppressHydrationWarning
       >
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[100] focus:rounded focus:bg-emerald-500 focus:px-2 focus:py-1 focus:text-white">
           Skip to content
