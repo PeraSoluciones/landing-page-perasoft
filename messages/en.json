@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Pablo Aucapiña · Full-Stack Software Engineer",
+    "description": "Full-Stack Software Engineer specializing in AI-augmented workflows, Next.js, TypeScript, and cloud-native architecture. Based in Quito, Ecuador.",
+    "ogImageAlt": "Pablo Aucapiña - Full-Stack Software Engineer"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "work": "Work",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Pablo Aucapiña",
+    "role": "Full-Stack Software Engineer",
+    "subtitle": "Building AI-augmented web experiences with Next.js, TypeScript & cloud-native architecture.",
+    "terminalPrompt": "pablo@dev",
+    "terminalCommands": {
+      "whoami": "Full-Stack Engineer — Quito, Ecuador",
+      "skills": "Next.js · TypeScript · React · Node.js · AWS · Docker · AI",
+      "experience": "6+ years · Darkcam S.A · Independent Contractor",
+      "contact": "pablo@aucapina.dev · linkedin.com/in/pablo-aucapina",
+      "help": "Available commands: whoami, skills, experience, contact, help"
+    },
+    "cta": {
+      "email": "Get in Touch",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I'm a Full-Stack Software Engineer with over 6 years of experience building scalable web applications and digital platforms. Currently at Darkcam S.A, I architect end-to-end solutions that integrate AI-assisted development workflows with cloud-native infrastructure.",
+    "p2": "My approach combines robust backend engineering with polished frontend experiences, leveraging tools like Claude AI and GitHub Copilot to accelerate development while maintaining high code quality. I specialize in transforming complex business requirements into intuitive, performant products.",
+    "p3": "Based in Quito, Ecuador with a Master's in Information Technology from the University of Wollongong, I bring both academic rigor and hands-on pragmatism to every project."
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Full-Stack Software Engineer",
+        "company": "Darkcam S.A",
+        "period": "Feb 2025 — Present",
+        "location": "Quito, Ecuador",
+        "description": "Leading development of AI-augmented web platforms using Next.js, TypeScript, and AWS. Architecting microservices with Docker and CI/CD pipelines.",
+        "current": true
+      },
+      {
+        "role": "Independent Contractor · Full-Stack Developer",
+        "company": "Self-employed",
+        "period": "Jul 2020 — Feb 2025",
+        "location": "Quito, Ecuador",
+        "description": "Delivered 10+ production projects for clients across automotive, logistics, and identity verification sectors. Specialized in React, Node.js, and cloud deployments."
+      },
+      {
+        "role": "Technical Support Specialist",
+        "company": "IBM / Ventus",
+        "period": "2018 — 2020",
+        "location": "Quito, Ecuador",
+        "description": "Enterprise-level technical support and infrastructure troubleshooting. Developed automation scripts and improved incident response processes."
+      },
+      {
+        "role": "IT Support Analyst",
+        "company": "IT Support Roles",
+        "period": "2017 — 2018",
+        "location": "Ambato, Ecuador",
+        "description": "Systems administration, network troubleshooting, and end-user support. Built foundations in infrastructure and problem-solving."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "categories": [
+      {
+        "name": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript", "Redux", "Zustand", "HTML5/CSS3"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js", "Express", "NestJS", "Python", "REST APIs", "GraphQL", "TypeORM", "Prisma"]
+      },
+      {
+        "name": "Infrastructure",
+        "items": ["AWS (EC2, S3, Lambda, RDS, CloudFront)", "Docker", "GitHub Actions", "Vercel", "Nginx", "Linux"]
+      },
+      {
+        "name": "Databases",
+        "items": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Supabase"]
+      },
+      {
+        "name": "AI-Assisted",
+        "items": ["Claude AI", "GitHub Copilot", "ChatGPT", "OpenCode CLI", "AI-Augmented Workflows"]
+      }
+    ]
+  },
+  "work": {
+    "title": "Selected Work",
+    "items": [
+      {
+        "name": "Contigo",
+        "description": "Healthcare platform for patient management and telemedicine consultations.",
+        "tags": ["Next.js", "TypeScript", "AWS"],
+        "url": "https://contigo-chi.vercel.app/"
+      },
+      {
+        "name": "Universe ID",
+        "description": "Digital identity verification platform with blockchain-backed document validation.",
+        "tags": ["React", "Node.js", "PostgreSQL"],
+        "url": "https://app.universe-id.com/"
+      },
+      {
+        "name": "Automotores Cumandá",
+        "description": "Automotive dealer website with real-time inventory and lead management.",
+        "tags": ["Next.js", "Tailwind", "AWS"],
+        "url": "https://automotorescumanda.com"
+      },
+      {
+        "name": "Manper GPS",
+        "description": "Real-time GPS tracking and fleet management system.",
+        "tags": ["React", "Node.js", "MongoDB"],
+        "url": "https://manpergps.com"
+      },
+      {
+        "name": "Zoo Tarqui",
+        "description": "Interactive zoo website with educational content and visitor engagement features.",
+        "tags": ["React", "Node.js", "PostgreSQL"],
+        "url": "https://zootarqui.com"
+      },
+      {
+        "name": "Darkam Signature",
+        "description": "Electronic signature platform for legally binding digital document signing.",
+        "tags": ["Next.js", "TypeScript", "AWS"],
+        "url": ""
+      }
+    ]
+  },
+  "education": {
+    "title": "Education & Certifications",
+    "degrees": [
+      {
+        "degree": "Master of Information Technology",
+        "institution": "University of Wollongong",
+        "period": "2022 — 2023"
+      },
+      {
+        "degree": "Systems Engineer",
+        "institution": "Universidad Técnica de Ambato",
+        "period": "2012 — 2017"
+      }
+    ],
+    "certs": [
+      "Full Stack Open — University of Helsinki",
+      "GraphQL Specialist",
+      "TypeScript 5+"
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Interested in working together? Whether it's a full-time role, a contract project, or just a conversation about tech — I'm always open to connecting.",
+    "email": "perasoluciones@gmail.com",
+    "location": "Quito, Ecuador",
+    "cta": "Send an Email",
+    "download": "Download CV"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js, TypeScript & ☕"
+  },
+  "commandPalette": {
+    "placeholder": "Type a command or search...",
+    "sections": {
+      "navigation": "Navigation",
+      "actions": "Actions",
+      "social": "Social"
+    },
+    "commands": {
+      "about": "Go to About",
+      "experience": "Go to Experience",
+      "skills": "Go to Skills",
+      "work": "Go to Work",
+      "education": "Go to Education",
+      "contact": "Go to Contact",
+      "downloadCV": "Download CV",
+      "toggleTheme": "Toggle Theme",
+      "switchLang": "Switch to Spanish",
+      "github": "Open GitHub",
+      "linkedin": "Open LinkedIn"
+    }
+  }
+}
