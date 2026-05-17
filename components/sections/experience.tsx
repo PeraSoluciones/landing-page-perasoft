@@ -31,7 +31,7 @@ export function Experience() {
                   <h3 className="font-semibold text-lg">{item.role}</h3>
                   {item.current && (
                     <Badge variant="default" className="w-fit text-xs bg-emerald-500 hover:bg-emerald-600 text-white border-0">
-                      Present
+                      {t("present")}
                     </Badge>
                   )}
                 </div>

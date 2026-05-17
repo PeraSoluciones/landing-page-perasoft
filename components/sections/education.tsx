@@ -44,7 +44,7 @@ export function Education() {
             <div>
               <h3 className="font-semibold flex items-center gap-2 mb-4">
                 <Award className="h-5 w-5 text-emerald-500" />
-                Certifications
+                {t("certificationsLabel")}
               </h3>
               <ul className="space-y-2">
                 {certs.map((cert, i) => (

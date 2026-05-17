@@ -1,6 +1,4 @@
-import { useTranslations } from "next-intl";
-
-export function JsonLd({ locale }: { locale: string }) {
+export function JsonLd({ locale: _locale }: { locale: string }) {
   const person = {
     "@context": "https://schema.org",
     "@type": "Person",

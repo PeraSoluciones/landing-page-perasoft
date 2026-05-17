@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Mail, ArrowDown } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/shared/icons";
 import { TerminalInput } from "@/components/shared/terminal-input";
+import { HeroAtmosphere } from "@/components/shared/hero-atmosphere";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -12,7 +13,8 @@ export function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative flex min-h-[calc(100vh-3.5rem)] flex-col items-center justify-center px-6 py-20">
+    <section className="relative flex min-h-[calc(100vh-3.5rem)] flex-col items-center justify-center px-6 py-20 overflow-hidden">
+      <HeroAtmosphere />
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

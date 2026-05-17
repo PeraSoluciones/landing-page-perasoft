@@ -35,7 +35,13 @@
     "title": "Sobre mí",
     "p1": "Soy un Ingeniero de Software Full-Stack con más de 6 años de experiencia construyendo aplicaciones web escalables y plataformas digitales. Actualmente en Darkcam S.A, diseño soluciones integrales que combinan flujos de desarrollo asistidos por IA con infraestructura cloud-native.",
     "p2": "Mi enfoque combina ingeniería backend robusta con experiencias frontend pulidas, aprovechando herramientas como Claude AI y GitHub Copilot para acelerar el desarrollo manteniendo alta calidad de código. Me especializo en transformar requerimientos complejos en productos intuitivos y performantes.",
-    "p3": "Basado en Quito, Ecuador con una Maestría en Tecnologías de la Información de la University of Wollongong, aporto rigor académico y pragmatismo práctico a cada proyecto."
+    "p3": "Basado en Quito, Ecuador con una Maestría en Tecnologías de la Información de la University of Wollongong, aporto rigor académico y pragmatismo práctico a cada proyecto.",
+    "stats": [
+      { "value": "6+", "label": "Años de Experiencia" },
+      { "value": "10+", "label": "Proyectos Entregados" },
+      { "value": "5", "label": "Industrias Atendidas" },
+      { "value": "2", "label": "Países" }
+    ]
   },
   "experience": {
     "title": "Experiencia",
@@ -69,7 +75,8 @@
         "location": "Ambato, Ecuador",
         "description": "Administración de sistemas, resolución de problemas de red y soporte a usuarios. Construí las bases en infraestructura y resolución de problemas."
       }
-    ]
+    ],
+    "present": "Presente"
   },
   "skills": {
     "title": "Habilidades y Tecnologías",
@@ -155,7 +162,8 @@
       "Full Stack Open — Universidad de Helsinki",
       "Especialista en GraphQL",
       "TypeScript 5+"
-    ]
+    ],
+    "certificationsLabel": "Certificaciones"
   },
   "contact": {
     "title": "Contáctame",
