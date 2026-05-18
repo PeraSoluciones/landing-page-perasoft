@@ -3,7 +3,7 @@ import { SectionHeading } from "@/components/shared/section-heading";
 import { ScrollReveal } from "@/components/shared/scroll-reveal";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Mail, MapPin, Download } from "lucide-react";
+import { Mail, MapPin, Download, Phone } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/shared/icons";
 
 export function Contact() {
@@ -23,7 +23,7 @@ export function Contact() {
         <ScrollReveal delay={0.2}>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="mailto:perasoluciones@gmail.com"
+              href="mailto:pabloaucapina2@hotmail.com"
               className={cn(buttonVariants({ size: "lg" }), "gap-2")}
             >
               <Mail className="h-4 w-4" />

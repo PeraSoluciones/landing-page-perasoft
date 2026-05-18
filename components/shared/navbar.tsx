@@ -70,22 +70,26 @@ function MobileNav() {
       >
         <Menu className="h-4 w-4" />
       </SheetTrigger>
-      <SheetContent side="right">
+      <SheetContent side="right" className="px-6 py-8">
         <SheetTitle className="sr-only">Navigation</SheetTitle>
-        <div className="flex flex-col gap-4 mt-8">
-          {NAV_ITEMS.map((item) => (
-            <a
-              key={item.tKey}
-              href={item.href}
-              className="text-lg hover:text-emerald-500 transition-colors"
-            >
-              {t(item.tKey as any)}
-            </a>
-          ))}
-          <div className="flex items-center gap-2 mt-4">
+        <nav className="flex flex-col gap-4 mt-6">
+          {NAV_ITEMS.map((item) => {
+            const Icon = item.icon;
+            return (
+              <a
+                key={item.tKey}
+                href={item.href}
+                className="flex items-center gap-3 text-lg hover:text-emerald-500 transition-colors"
+              >
+                <Icon className="h-4 w-4 text-emerald-500/70" />
+                {t(item.tKey as any)}
+              </a>
+            );
+          })}
+          <div className="mt-6 pt-6 border-t border-border flex items-center gap-2">
             <LocaleToggle />
           </div>
-        </div>
+        </nav>
       </SheetContent>
     </Sheet>
   );

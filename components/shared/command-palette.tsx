@@ -107,7 +107,10 @@ function CommandPaletteInner({ onSelect }: { onSelect: () => void }) {
                     key={`${group}-${idx}`}
                     onSelect={() => {
                       if ("href" in item && item.href) {
-                        window.location.href = item.href;
+                        const el = document.querySelector(item.href);
+                        if (el) {
+                          el.scrollIntoView({ behavior: "smooth" });
+                        }
                       } else if ("action" in item && item.action) {
                         item.action();
                       }
