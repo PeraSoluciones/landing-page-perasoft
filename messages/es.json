@@ -20,9 +20,9 @@
     "terminalPrompt": "pablo@dev",
     "terminalCommands": {
       "whoami": "Ingeniero Full-Stack — Quito, Ecuador",
-      "skills": "Next.js · TypeScript · React · Node.js · AWS · Docker · IA",
+      "skills": "Next.js · TypeScript · React · Hono · GCP · Supabase · IA",
       "experience": "6+ años · Darkcam S.A · Contratista Independiente",
-      "contact": "pablo@aucapina.dev · linkedin.com/in/pablo-aucapina",
+      "contact": "pabloaucapina2@hotmail.com · +593 0999844118",
       "help": "Comandos: whoami, skills, experience, contact, help"
     },
     "cta": {
@@ -35,7 +35,7 @@
     "title": "Sobre mí",
     "p1": "Soy un Ingeniero de Software Full-Stack con más de 6 años de experiencia construyendo aplicaciones web escalables y plataformas digitales. Actualmente en Darkcam S.A, diseño soluciones integrales que combinan flujos de desarrollo asistidos por IA con infraestructura cloud-native.",
     "p2": "Mi enfoque combina ingeniería backend robusta con experiencias frontend pulidas, aprovechando herramientas como Claude AI y GitHub Copilot para acelerar el desarrollo manteniendo alta calidad de código. Me especializo en transformar requerimientos complejos en productos intuitivos y performantes.",
-    "p3": "Basado en Quito, Ecuador con una Maestría en Tecnologías de la Información de la University of Wollongong, aporto rigor académico y pragmatismo práctico a cada proyecto.",
+    "p3": "Basado en Quito, Ecuador con una Maestría en Estudios de Ingeniería (Informática) de la University of Wollongong, aporto rigor académico y pragmatismo práctico a cada proyecto.",
     "stats": [
       { "value": "6+", "label": "Años de Experiencia" },
       { "value": "10+", "label": "Proyectos Entregados" },
@@ -51,29 +51,29 @@
         "company": "Darkcam S.A",
         "period": "Feb 2025 — Presente",
         "location": "Quito, Ecuador",
-        "description": "Liderando el desarrollo de plataformas web aumentadas con IA usando Next.js, TypeScript y AWS. Arquitectando microservicios con Docker y pipelines CI/CD.",
+        "description": "Construyendo plataformas de firma de documentos, APIs y apps móviles. Liderando entornos de staging en GCP y Vercel para universe-id, darkcam-signature, darkcam-hono-api y pdf-signer.",
         "current": true
       },
       {
         "role": "Contratista Independiente · Desarrollador Full-Stack",
         "company": "Autónomo",
-        "period": "Jul 2020 — Feb 2025",
+        "period": "2020 — 2025",
         "location": "Quito, Ecuador",
-        "description": "Entregué más de 10 proyectos en producción para clientes en sectores automotriz, logística y verificación de identidad. Especializado en React, Node.js y despliegues en la nube."
+        "description": "Entregué plataformas web para clientes en sectores automotriz, logística, rastreo GPS y turismo. Sitios WordPress y desarrollos personalizados en React/Next.js, APIs REST, bases de datos PostgreSQL/MongoDB."
       },
       {
-        "role": "Especialista de Soporte Técnico",
-        "company": "IBM / Ventus",
-        "period": "2018 — 2020",
-        "location": "Quito, Ecuador",
-        "description": "Soporte técnico empresarial y resolución de problemas de infraestructura. Desarrollé scripts de automatización y mejoré los procesos de respuesta a incidentes."
+        "role": "Instructor de Desarrollo de Software",
+        "company": "Instituto Superior Tecnológico Tena",
+        "period": "2016 — 2020",
+        "location": "Tena, Ecuador",
+        "description": "Enseñé desarrollo web frontend. Formé estudiantes en buenas prácticas, estructura de código y resolución de problemas."
       },
       {
-        "role": "Analista de Soporte IT",
-        "company": "Roles de Soporte IT",
-        "period": "2017 — 2018",
-        "location": "Ambato, Ecuador",
-        "description": "Administración de sistemas, resolución de problemas de red y soporte a usuarios. Construí las bases en infraestructura y resolución de problemas."
+        "role": "Roles Anteriores (Libresoft, Sofytec, Experteam, People Web)",
+        "company": "Varias",
+        "period": "2008 — 2013",
+        "location": "Quito, Ecuador",
+        "description": "Desarrollador web en múltiples empresas. Construí módulos dinámicos para facturación, inventario, sistemas financieros y aplicaciones empresariales usando HTML/CSS/JS/PHP."
       }
     ],
     "present": "Presente"
@@ -83,23 +83,27 @@
     "categories": [
       {
         "name": "Frontend",
-        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript", "Redux", "Zustand", "HTML5/CSS3"]
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn/UI", "Zustand", "HTML5/CSS3"]
       },
       {
-        "name": "Backend",
-        "items": ["Node.js", "Express", "NestJS", "Python", "REST APIs", "GraphQL", "TypeORM", "Prisma"]
+        "name": "Backend y Datos",
+        "items": ["Node.js", "Hono", "Supabase", "REST APIs", "GraphQL", "PostgreSQL", "MongoDB", "MySQL"]
       },
       {
-        "name": "Infraestructura",
-        "items": ["AWS (EC2, S3, Lambda, RDS, CloudFront)", "Docker", "GitHub Actions", "Vercel", "Nginx", "Linux"]
+        "name": "Infraestructura y DevOps",
+        "items": ["GCP (Cloud Run, Cloud Build)", "Vercel", "GitHub Actions", "Docker Compose", "Nginx", "Linux"]
       },
       {
-        "name": "Bases de Datos",
-        "items": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Supabase"]
+        "name": "Herramientas y Entorno",
+        "items": ["WSL 2 (Ubuntu)", "Zsh / Powerlevel10k", "tmux", "k6", "Grafana", "Git"]
       },
       {
         "name": "Asistido por IA",
-        "items": ["Claude AI", "GitHub Copilot", "ChatGPT", "OpenCode CLI", "Flujos AI-Augmented"]
+        "items": ["OpenCode CLI", "Claude Code", "GitHub Copilot", "Flujos AI-Augmented"]
+      },
+      {
+        "name": "CMS",
+        "items": ["WordPress"]
       }
     ]
   },
@@ -110,37 +114,43 @@
         "name": "Contigo",
         "description": "Plataforma de salud para gestión de pacientes y consultas de telemedicina.",
         "tags": ["Next.js", "TypeScript", "AWS"],
-        "url": "https://contigo-chi.vercel.app/"
+        "url": "https://contigo-chi.vercel.app/",
+        "image": "/work/contigo.webp"
       },
       {
         "name": "Universe ID",
-        "description": "Plataforma de verificación de identidad digital con validación de documentos respaldada por blockchain.",
-        "tags": ["React", "Node.js", "PostgreSQL"],
-        "url": "https://app.universe-id.com/"
+        "description": "Sitio web de marketing de la plataforma de verificación de identidad digital.",
+        "tags": ["Next.js", "TypeScript", "GCP"],
+        "url": "https://www.universe-id.com/",
+        "image": "/work/universe-id-web.webp"
+      },
+      {
+        "name": "Universe ID App",
+        "description": "Aplicación web de autenticación y validación de documentos.",
+        "tags": ["React", "Hono", "PostgreSQL"],
+        "url": "https://app.universe-id.com/",
+        "image": "/work/universe-id-app.webp"
       },
       {
         "name": "Automotores Cumandá",
         "description": "Sitio web de concesionario automotriz con inventario en tiempo real y gestión de leads.",
         "tags": ["Next.js", "Tailwind", "AWS"],
-        "url": "https://automotorescumanda.com"
+        "url": "https://automotorescumanda.com",
+        "image": "/work/automotores-cumanda.webp"
       },
       {
         "name": "Manper GPS",
         "description": "Sistema de rastreo GPS en tiempo real y gestión de flotas.",
         "tags": ["React", "Node.js", "MongoDB"],
-        "url": "https://manpergps.com"
+        "url": "https://manpergps.com",
+        "image": "/work/manper-gps.webp"
       },
       {
         "name": "Zoo Tarqui",
         "description": "Sitio web interactivo del zoológico con contenido educativo y funciones de participación para visitantes.",
         "tags": ["React", "Node.js", "PostgreSQL"],
-        "url": "https://zootarqui.com"
-      },
-      {
-        "name": "Darkam Signature",
-        "description": "Plataforma de firma electrónica para firma digital de documentos legalmente vinculantes.",
-        "tags": ["Next.js", "TypeScript", "AWS"],
-        "url": ""
+        "url": "https://zootarqui.com",
+        "image": "/work/zoo-tarqui.webp"
       }
     ]
   },
@@ -148,27 +158,28 @@
     "title": "Educación y Certificaciones",
     "degrees": [
       {
-        "degree": "Maestría en Tecnologías de la Información",
+        "degree": "Maestría en Estudios de Ingeniería (Informática)",
         "institution": "University of Wollongong",
-        "period": "2022 — 2023"
+        "period": "2015"
       },
       {
         "degree": "Ingeniero en Sistemas",
         "institution": "Universidad Técnica de Ambato",
-        "period": "2012 — 2017"
+        "period": "2008"
       }
     ],
     "certs": [
-      "Full Stack Open — Universidad de Helsinki",
-      "Especialista en GraphQL",
-      "TypeScript 5+"
+      "Full Stack Open — Universidad de Helsinki (2024)",
+      "Especialista en GraphQL (2025)",
+      "TypeScript (2025)"
     ],
     "certificationsLabel": "Certificaciones"
   },
   "contact": {
     "title": "Contáctame",
     "description": "¿Interesado en trabajar juntos? Ya sea un rol full-time, un proyecto de contrato o simplemente una conversación sobre tecnología — siempre estoy abierto a conectar.",
-    "email": "perasoluciones@gmail.com",
+    "email": "pabloaucapina2@hotmail.com",
+    "phone": "+593 0999844118",
     "location": "Quito, Ecuador",
     "cta": "Enviar Email",
     "download": "Descargar CV"

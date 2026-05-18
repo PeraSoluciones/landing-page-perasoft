@@ -4,20 +4,21 @@ import { ScrollReveal } from "@/components/shared/scroll-reveal";
 import { Marquee } from "@/components/shared/marquee";
 
 const SKILL_KEYS = [
-  { nameKey: "0", itemKeys: ["0", "1", "2", "3", "4", "5", "6", "7"] },
+  { nameKey: "0", itemKeys: ["0", "1", "2", "3", "4", "5", "6"] },
   { nameKey: "1", itemKeys: ["0", "1", "2", "3", "4", "5", "6", "7"] },
   { nameKey: "2", itemKeys: ["0", "1", "2", "3", "4", "5"] },
-  { nameKey: "3", itemKeys: ["0", "1", "2", "3", "4"] },
-  { nameKey: "4", itemKeys: ["0", "1", "2", "3", "4"] },
+  { nameKey: "3", itemKeys: ["0", "1", "2", "3", "4", "5"] },
+  { nameKey: "4", itemKeys: ["0", "1", "2", "3"] },
+  { nameKey: "5", itemKeys: ["0"] },
 ] as const;
 
 export function Skills() {
   const t = useTranslations("skills");
 
   const categories = SKILL_KEYS.map((cat) => ({
-    name: t(`categories.${cat.nameKey}.name` as any),
+    name: t(`categories.${cat.nameKey}.name` as Parameters<typeof t>[0]),
     items: cat.itemKeys.map((key) =>
-      t(`categories.${cat.nameKey}.items.${key}` as any)
+      t(`categories.${cat.nameKey}.items.${key}` as Parameters<typeof t>[0])
     ),
   }));
 
