@@ -42,7 +42,7 @@ export function About() {
           </div>
         </ScrollReveal>
         <ScrollReveal delay={0.2}>
-          <div className="mt-8 space-y-4 text-muted-foreground leading-relaxed max-w-3xl">
+          <div className="mt-8 space-y-4 text-muted-foreground leading-relaxed text-justify hyphens-auto">
             <p>{t("p1")}</p>
             <p>{t("p2")}</p>
             <p>{t("p3")}</p>
