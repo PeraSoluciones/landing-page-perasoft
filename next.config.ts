@@ -1,9 +1,10 @@
+import path from "node:path";
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   turbopack: {
-    root: "..",
+    root: path.resolve(__dirname),
   },
 };
 
