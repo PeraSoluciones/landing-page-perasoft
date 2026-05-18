@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { ThemeToggle } from "./theme-toggle";
 import { LocaleToggle } from "./locale-toggle";
@@ -61,9 +62,10 @@ export function Navbar() {
 
 function MobileNav() {
   const t = useTranslations("nav");
+  const [open, setOpen] = useState(false);
 
   return (
-    <Sheet>
+    <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger
         className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border hover:bg-accent transition-colors"
         aria-label="Open menu"
@@ -79,6 +81,7 @@ function MobileNav() {
               <a
                 key={item.tKey}
                 href={item.href}
+                onClick={() => setOpen(false)}
                 className="flex items-center gap-3 text-lg hover:text-emerald-500 transition-colors"
               >
                 <Icon className="h-4 w-4 text-emerald-500/70" />
