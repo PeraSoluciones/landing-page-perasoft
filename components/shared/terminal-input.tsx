@@ -100,15 +100,15 @@ export function TerminalInput() {
             key={i}
             className={
               line.startsWith(">")
-                ? "text-emerald-500"
-                : "text-foreground/80"
+                ? "text-emerald-500 break-words"
+                : "text-foreground/80 break-words"
             }
           >
             {line}
           </p>
         ))}
       </div>
-      <div className="flex items-center gap-2 mt-2">
+      <div className="flex items-center gap-2 mt-2 min-w-0">
         <span className="text-emerald-500 shrink-0">
           pablo@dev:~$
         </span>
@@ -118,7 +118,8 @@ export function TerminalInput() {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={handleKeyDown}
-          className="flex-1 bg-transparent outline-none text-foreground caret-emerald-500"
+          className="flex-1 min-w-0 bg-transparent outline-none text-foreground caret-emerald-500"
+          size={1}
           spellCheck={false}
           autoComplete="off"
         />

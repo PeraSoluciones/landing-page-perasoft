@@ -19,7 +19,7 @@ export function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="mx-auto max-w-3xl text-center"
+        className="mx-auto w-full max-w-3xl text-center"
       >
         <p className="font-mono text-sm text-emerald-500 mb-2">
           {t("greeting")}
