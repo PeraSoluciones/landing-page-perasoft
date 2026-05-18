@@ -87,7 +87,7 @@ export function TerminalInput() {
   return (
     <div
       onClick={() => inputRef.current?.focus()}
-      className="w-full max-w-xl rounded-lg border border-border bg-card/50 p-4 font-mono text-sm backdrop-blur-sm"
+      className="mx-auto w-full max-w-xl rounded-lg border border-border bg-card/50 p-4 font-mono text-sm backdrop-blur-sm"
     >
       <div className="mb-2 flex items-center gap-1.5 text-muted-foreground">
         <span className="h-2.5 w-2.5 rounded-full bg-red-500/80" />
