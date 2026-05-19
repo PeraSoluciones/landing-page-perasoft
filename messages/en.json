@@ -20,7 +20,7 @@
     "terminalPrompt": "pablo@dev",
     "terminalCommands": {
       "whoami": "Full-Stack Engineer — Quito, Ecuador",
-      "skills": "Next.js · TypeScript · React · Hono · GCP · Supabase · AI",
+      "skills": "Next.js · TypeScript · React · Hono · GCP · AWS · Supabase · AI",
       "experience": "6+ years · Darkcam S.A · Independent Contractor",
       "contact": "pabloaucapina2@hotmail.com · +593 0999844118",
       "help": "Available commands: whoami, skills, experience, contact, help"
@@ -34,8 +34,8 @@
   "about": {
     "title": "About Me",
     "p1": "I'm a Full-Stack Software Engineer with over 6 years of experience building scalable web applications and digital platforms. Currently at Darkcam S.A, I architect end-to-end solutions that integrate AI-assisted development workflows with cloud-native infrastructure.",
-    "p2": "My approach combines robust backend engineering with polished frontend experiences, leveraging tools like Claude AI and GitHub Copilot to accelerate development while maintaining high code quality. I specialize in transforming complex business requirements into intuitive, performant products.",
-    "p3": "Based in Quito, Ecuador with a Master of Engineering Studies (Computers) from the University of Wollongong, I bring both academic rigor and hands-on pragmatism to every project.",
+    "p2": "My approach combines robust backend engineering with polished frontend experiences, leveraging tools like Claude Code and GitHub Copilot to accelerate development while maintaining high code quality. I specialize in transforming complex business requirements into intuitive, performant products.",
+    "p3": "Based in Quito, Ecuador, with a Master of Engineering Studies (Computers) from the University of Wollongong, I bring both academic rigor and hands-on pragmatism to every project.",
     "stats": [
       { "value": "6+", "label": "Years Experience" },
       { "value": "10+", "label": "Projects Delivered" },
@@ -91,7 +91,7 @@
       },
       {
         "name": "Infrastructure & DevOps",
-        "items": ["GCP (Cloud Run, Cloud Build)", "Vercel", "GitHub Actions", "Docker Compose", "Nginx", "Linux"]
+        "items": ["GCP (Cloud Run, Cloud Build)", "AWS (S3, Lambda)", "Vercel", "GitHub Actions", "Docker Compose", "Nginx", "Linux"]
       },
       {
         "name": "Tools & Environment",
@@ -112,43 +112,43 @@
     "items": [
       {
         "name": "Contigo",
-        "description": "Healthcare platform for patient management and telemedicine consultations.",
-        "tags": ["Next.js", "TypeScript", "AWS"],
+        "description": "Web application for parents and health professionals who support children with ADHD.",
+        "tags": ["Next.js", "TypeScript", "Supabase"],
         "url": "https://contigo-chi.vercel.app/",
         "image": "/work/contigo.webp"
       },
       {
         "name": "Universe ID",
-        "description": "Digital identity verification platform marketing site.",
-        "tags": ["Next.js", "TypeScript", "GCP"],
+        "description": "Marketing website for a digital signature platform.",
+        "tags": ["Next.js", "TypeScript"],
         "url": "https://www.universe-id.com/",
         "image": "/work/universe-id-web.webp"
       },
       {
         "name": "Universe ID App",
-        "description": "Authentication and document validation web application.",
-        "tags": ["React", "Hono", "PostgreSQL"],
+        "description": "Web application for managing digital signatures.",
+        "tags": ["React", "Hono", "PostgreSQL", "AWS", "GCP"],
         "url": "https://app.universe-id.com/",
         "image": "/work/universe-id-app.webp"
       },
       {
         "name": "Automotores Cumandá",
         "description": "Automotive dealer website with real-time inventory and lead management.",
-        "tags": ["Next.js", "Tailwind", "AWS"],
+        "tags": ["Wordpress", "Directorist"],
         "url": "https://automotorescumanda.com",
         "image": "/work/automotores-cumanda.webp"
       },
       {
         "name": "Manper GPS",
         "description": "Real-time GPS tracking and fleet management system.",
-        "tags": ["React", "Node.js", "MongoDB"],
+        "tags": ["Wordpress"],
         "url": "https://manpergps.com",
         "image": "/work/manper-gps.webp"
       },
       {
         "name": "Zoo Tarqui",
         "description": "Interactive zoo website with educational content and visitor engagement features.",
-        "tags": ["React", "Node.js", "PostgreSQL"],
+        "tags": ["Wordpress"],
         "url": "https://zootarqui.com",
         "image": "/work/zoo-tarqui.webp"
       }
