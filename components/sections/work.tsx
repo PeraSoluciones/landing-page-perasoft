@@ -9,11 +9,11 @@ import { ExternalLink } from "lucide-react";
 
 const PROJECT_KEYS = [
   { idx: "0", tags: ["0", "1", "2"] },
-  { idx: "1", tags: ["0", "1", "2"] },
-  { idx: "2", tags: ["0", "1", "2"] },
-  { idx: "3", tags: ["0", "1", "2"] },
-  { idx: "4", tags: ["0", "1", "2"] },
-  { idx: "5", tags: ["0", "1", "2"] },
+  { idx: "1", tags: ["0", "1"] },
+  { idx: "2", tags: ["0", "1", "2", "3", "4"] },
+  { idx: "3", tags: ["0", "1"] },
+  { idx: "4", tags: ["0"] },
+  { idx: "5", tags: ["0"] },
 ] as const;
 
 export function Work() {
