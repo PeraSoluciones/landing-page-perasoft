@@ -123,7 +123,6 @@ export function TerminalInput() {
           spellCheck={false}
           autoComplete="off"
         />
-        <span className="animate-blink text-emerald-500">█</span>
       </div>
       <div className="mt-2 flex flex-wrap gap-1.5">
         {COMMANDS.map((cmd) => (
